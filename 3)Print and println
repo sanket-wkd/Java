@@ -1,0 +1,20 @@
+public class Main{
+    public static void main(String[]args){
+        
+        System.out.print("Name: ");
+        System.out.println("Sanket");
+        
+        System.out.print("DOB :-");
+        System.out.println("3/feb/2007");
+        
+        System.out.print("Status :-");
+        System.out.println("Single");
+    }
+}
+
+/*
+Output:-
+Name: Sanket
+DOB :-3/feb/2007
+Status :-Single
+*/
