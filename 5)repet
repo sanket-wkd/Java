@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+
+        String a = "a";
+System.out.println(a.repeat(3));
+}
+}
+//output:- aaa
+
+//This show that java is closeryo c and c++ not python
