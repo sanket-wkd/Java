@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+
+        String name = "Sanket";
+        int age = 30;
+        String my_name = name;
+
+        System.out.println("Assign 1 var value to other");
+        System.out.println(my_name+name);
+        System.out.println(my_name+age);
+    }
+}
+/*
+Output:-
+Assign 1 var value to other
+SanketSanket
+Sanket30
+*/
