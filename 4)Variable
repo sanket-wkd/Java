@@ -16,3 +16,18 @@ Assign 1 var value to other
 SanketSanket
 Sanket30
 */
+System.out.println(name, my_name); is wrong because
+the println() method does not have a version that accepts two separate arguments.
+
+Java reads this as:
+
+"Call println() with two arguments."
+But println() is defined to take only one argument (or no arguments).
+Examples of valid println() methods are:
+
+
+The key point is that + combines everything 
+into one single String before println() is called.
+
+
+/*
