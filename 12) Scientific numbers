@@ -1,0 +1,26 @@
+public class Main{
+    public static void main(String[]args){
+        
+        float f1 = 35e3f;
+        double d1 = 12E4d;
+        
+        System.out.println(f1);
+        System.out.println(d1);
+        
+    }
+}
+/*
+35000.0
+120000.0
+*/
+
+
+/*
+Java also understands scientific notation.
+e or E means:
+× 10^
+
+35e3   = 35 × 10³ = 35000
+12E4   = 12 × 10⁴ = 120000
+3e-2   = 3 × 10⁻² = 0.03
+*/
