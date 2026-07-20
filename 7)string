@@ -1,0 +1,19 @@
+public class Main {
+    public static void main (String[]args){
+        String First_name = "Sanket";
+        String Last_name = "Wakudakar";
+        String Full_name = First_name +" " + Last_name;
+        
+        System.out.println(Full_name);
+    }
+}
+
+// Output:-
+// Sanket Wakudakar
+
+'''
+but if we replace Sanket ---> 1
+and wakudakar  ---> 2
+and change data type of Full_name --->String---> int
+trying to take output get error
+'''
