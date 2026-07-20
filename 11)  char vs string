@@ -1,0 +1,41 @@
+public class  Main {
+    public static void main (String[]args){
+        
+        //char store a single character
+        char grade = 'A';
+        
+        //String store one or more characters
+        String name = "Sanket";
+        
+        System.out.println("Character : " + grade);
+        System.out.println("string: " + name);
+        
+        //String method
+        
+        System.out.println("Length of string : " + name.length());
+        
+        //Printing char
+        System.out.println("Character is : " + grade);
+        
+    }
+}
+
+/*
+Output:- 
+Character : A
+string: Sanket
+Length of string : 6
+Character is : A
+*/
+
+
+/*
+| `char`                                  | `String`                                             |
+| --------------------------------------- | ---------------------------------------------------- |
+| Stores **one character**.               | Stores **one or more characters** (text).            |
+| Primitive data type.                    | Non-primitive (Class).                               |
+| Written inside **single quotes** `' '`. | Written inside **double quotes** `" "`.              |
+| Size: 2 bytes.                          | Size varies depending on the number of characters.   |
+| Cannot call methods.                    | Can call methods like `.length()`, `.toUpperCase()`. |
+
+*/
