@@ -13,10 +13,12 @@ public class Main {
         // char    - 2 bytes
         // boolean - true/false
 
+//Accept int and char all need to mentinon type by a letter
+
         byte age = 12;
         int phone = 123456789;
-        long phone2 = 112345678900L;
-        float pi = 3.14f;
+        long phone2 = 112345678900L;  // L
+        float pi = 3.14f;  //f
         char letter = '@';
         boolean isAdult = true;
 
