@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+        String name = "Sanket";
+
+        System.out.println(name.length());        // 6
+        System.out.println(name.toUpperCase());   // SANKET
+        System.out.println(name.toLowerCase());   // sanket
+        System.out.println(name.charAt(0));       // S
+        System.out.println(name.substring(3));    // ket
+        System.out.println(name.contains("ke"));  // true
+    }
+}
