@@ -1,0 +1,24 @@
+public class Main {
+    public static void main(String[] args) {
+      
+        //NON-primitive type
+        String name = "Apu";
+        String friend = new String("Akku");
+
+        System.out.println(name);              // Apu
+        System.out.println(friend);            // Akku
+        System.out.println(name.length());     // 3
+        System.out.println(friend.length());   // 4
+    }
+}
+
+'''
+new string creates an object
+| `String name = "Sanket";`                          | `String name = new String("Sanket");`                                |
+| -------------------------------------------------- | -------------------------------------------------------------------- |
+| Uses the **String Pool**.                          | Creates a **new object** in the heap memory.                         |
+| Faster and uses less memory.                       | Slightly slower and uses more memory.                                |
+| Recommended in almost all cases.                   | Rarely used.                                                         |
+| If the same string already exists, Java reuses it. | Always creates a new `String` object, even if the same value exists. |
+
+'''
