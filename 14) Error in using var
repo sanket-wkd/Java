@@ -1,0 +1,14 @@
+The type cannot change
+
+Once Java decides the type, it stays that type.
+
+var x = 5;    // x is int
+
+x = 10;       // ✅ OK
+x = 20;       // ✅ OK
+
+But:
+
+var x = 5;    // int
+
+x = 9.99;     // ❌ Error
