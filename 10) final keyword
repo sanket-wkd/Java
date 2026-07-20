@@ -1,0 +1,35 @@
+public class Main {
+    public static void main (String[] args)
+    {
+        int age = 19 ;
+        age = 16;
+        
+        final int Birth_year = 2007;
+       // Birth_year = 2010;
+        
+        System.out.println(age);
+        System.out.println(Birth_year);
+        
+    }
+}
+
+/*
+Output:-
+16
+2007
+*/
+
+/*
+ERROR!
+Main.java:8: error: cannot assign a value to final variable Birth_year
+        Birth_year = 2010;
+        ^
+1 error
+*/
+
+/*
+final Keyword (Summary)
+final makes a variable constant.
+A constant's value cannot be changed after it is assigned.
+
+*/
