@@ -1,0 +1,32 @@
+public class Main {
+  public static void main(String[] args) {
+    var myNum = 5;          // int
+    var myDouble = 9.98;    // double
+    var myChar = 'D';       // char
+    var myBoolean = true;   // boolean
+    var myString = "Hello"; // String
+
+    System.out.println(myNum);
+    System.out.println(myDouble);
+    System.out.println(myChar);
+    System.out.println(myBoolean);
+    System.out.println(myString);
+  }
+}
+/*
+Output:-
+5
+9.98
+D
+true
+Hello
+*/
+
+/*
+The var keyword lets the compiler automatically detect 
+the type of a variable based on the value you assign to it.
+
+This helps you write cleaner code and avoid repeating types, 
+especially for long or complex type
+
+*/
